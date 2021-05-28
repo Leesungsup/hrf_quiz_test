@@ -12,6 +12,9 @@ def helloAPI(request):
 def hello(request):
     return Response("Hello!")
 @api_view(['GET'])
+def ket(request):
+    return Response("KetAI")
+@api_view(['GET'])
 def randomQuiz(request,id):
     totalQuizs=Quiz.objects.all()
     randomQuizs=random.sample(list(totalQuizs),id)

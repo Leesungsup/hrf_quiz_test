@@ -4,4 +4,5 @@ urlpatterns=[
     path("Hello/",helloAPI),
     path("<int:id>/",randomQuiz),
     path("Hello1/",hello),
+    path("Ket/",KetAI),
 ]
