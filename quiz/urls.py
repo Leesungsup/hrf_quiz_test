@@ -5,4 +5,5 @@ urlpatterns=[
     path("<int:id>/",randomQuiz),
     path("Hello1/",hello),
     path("Ket/",ket),
+    path("op/",op),
 ]
