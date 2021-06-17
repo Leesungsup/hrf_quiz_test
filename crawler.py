@@ -2,7 +2,7 @@ import os
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "myapi.settings")
 import django
 django.setup()
-from myapi.models import Player_info
+from quiz.models import Player_info
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -25,9 +25,9 @@ def crawler():
         team=information[7].img['alt']
         value=information[8].span['title']
         player_list.append([number,name,position,age,nation,team,value])
-    df=pd.DataFrame(player_list,columns=['number','name','position','age','nation','team','value'])
-    return df
+    #df=pd.DataFrame(player_list,columns=['number','name','position','age','nation','team','value'])
+    return player_list
 if __name__=='__main__':
-    recipe_data = crawler()
-    for item in recipe_data:
-        Search_Recipe(recipe_ID = item['recipe_ID'], recipe_Name = item['recipe_Name'], ingredient_Key = item['ingredient_Key']).save()
+    data = crawler()
+    for item in data:
+        Player_info(number = item[0], name = item[1], position = item[2],age=item[3],nation=item[4],team=item[5],value=item[6]).save()
