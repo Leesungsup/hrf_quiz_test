@@ -14,5 +14,4 @@ class Player_info(models.Model):
     nation=models.CharField(max_length=40)
     team=models.CharField(max_length=40)
     value=models.CharField(max_length=20)
-    class Meta:
-        db_table = 'player'
+    
