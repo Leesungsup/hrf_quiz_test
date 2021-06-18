@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 #import pandas as pd
 def crawler():
     headers={'User-Agent':"Mozilla/5.0 (Windows NT 10.0; Win64; x32) AppleWebKit/536.35 (KHTML, like Gecko) Chrome/100.0.0.7 Safari/536.28"}
-    url="https://www.transfermarkt.com/spieler-statistik/wertvollstespieler/marktwertetop"
+    url=f"https://www.transfermarkt.com/spieler-statistik/wertvollstespieler/marktwertetop?ajax=yw1&page=1"
     response=requests.get(url,headers=headers)
     player_list=[]
     if response.status_code==200:
