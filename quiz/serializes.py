@@ -4,7 +4,7 @@ class QuizSerializer(serializers.ModelSerializer):
     class Meta:
         model=Quiz
         fields=('title','body','answer')
-class PlayerSerializer(serializers.ModelSerialize):
+class PlayerSerializer(serializers.ModelSerializer):
     class Meta:
         model=Player_info
         fields=('number','name','position','age','nation','team','value')
