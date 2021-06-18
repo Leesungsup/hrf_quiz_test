@@ -1,0 +1,26 @@
+number,name,position,age,nation,team,value
+1,Kylian Mbappé,Centre-Forward,22,France,Paris Saint-Germain,€160.00m
+2,Erling Haaland,Centre-Forward,20,Norway,Borussia Dortmund,€110.00m
+3,Harry Kane,Centre-Forward,27,England,Tottenham Hotspur,€120.00m
+4,Jadon Sancho,Right Winger,21,England,Borussia Dortmund,€100.00m
+5,Mohamed Salah,Right Winger,29,Egypt,Liverpool FC,€110.00m
+6,Romelu Lukaku,Centre-Forward,28,Belgium,Inter Milan,€90.00m
+7,Kevin De Bruyne,Attacking Midfield,29,Belgium,Manchester City,€100.00m
+8,Neymar,Left Winger,29,Brazil,Paris Saint-Germain,€110.00m
+9,Frenkie de Jong,Central Midfield,24,Netherlands,FC Barcelona,€80.00m
+10,Bruno Fernandes,Attacking Midfield,26,Portugal,Manchester United,€90.00m
+11,Joshua Kimmich,Defensive Midfield,26,Germany,Bayern Munich,€90.00m
+12,Raheem Sterling,Left Winger,26,England,Manchester City,€100.00m
+13,Marcus Rashford,Left Winger,23,England,Manchester United,€85.00m
+14,Sadio Mané,Left Winger,29,Senegal,Liverpool FC,€100.00m
+15,Heung-min Son,Left Winger,28,"Korea, South",Tottenham Hotspur,€85.00m
+16,João Félix,Second Striker,21,Portugal,Atlético de Madrid,€80.00m
+17,Phil Foden,Left Winger,21,England,Manchester City,€70.00m
+18,Lautaro Martínez,Centre-Forward,23,Argentina,Inter Milan,€70.00m
+19,Marcos Llorente,Central Midfield,26,Spain,Atlético de Madrid,€70.00m
+20,Lionel Messi,Right Winger,33,Argentina,FC Barcelona,€80.00m
+21,Mason Mount,Attacking Midfield,22,England,Chelsea FC,€60.00m
+22,Matthijs de Ligt,Centre-Back,21,Netherlands,Juventus FC,€75.00m
+23,Trent Alexander-Arnold,Right-Back,22,England,Liverpool FC,€100.00m
+24,Rúben Dias,Centre-Back,24,Portugal,Manchester City,€70.00m
+25,Marquinhos,Centre-Back,27,Brazil,Paris Saint-Germain,€70.00m
