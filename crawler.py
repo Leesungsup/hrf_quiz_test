@@ -36,4 +36,4 @@ def crawler():
 if __name__=='__main__':
     data = crawler()
     for item in data:
-        Player_info(number = item[0], name = item[1], position = item[2],age=item[3],nation=item[4],team=item[5],value=item[6]).save()
+        Player_info(number = item['number'], name = item['name'], position = item['position'],age=item['age'],nation=item['nation'],team=item['team'],value=item['value']).save()
