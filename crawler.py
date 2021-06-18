@@ -24,17 +24,24 @@ def crawler():
         string=soup.find_all('tr',{'class':['odd','even']})
     for info in string:
         information=info.find_all('td')
-        number=information[0].get_text()
-        name=information[3].get_text()
-        position=information[4].get_text()
-        age=information[5].get_text()
-        nation=information[6].img['alt']
-        team=information[7].img['alt']
-        value=information[8].span['title']
-        player={'number':number,
-        'name':name,'position':position,
-        'age':age,'nation':nation,'team':team,'value':value}
-        player_list.append(player)
+        #number=information[0].get_text()
+        #name=information[3].get_text()
+        #position=information[4].get_text()
+        #age=information[5].get_text()
+        #nation=information[6].img['alt']
+        #team=information[7].img['alt']
+        #value=information[8].span['title']
+        #player={'number':number,'name':name,'position':position,'age':age,'nation':nation,'team':team,'value':value}
+        number.append(information[0].get_text())
+        name.append(information[3].get_text())
+        position.append(information[4].get_text())
+        age.append(information[5].get_text())
+        nation.append(information[6].img['alt'])
+        team.append(information[7].img['alt'])
+        value.append(information[8].span['title'])
+        #player_list.append(player)
+    df=pd.DataFrame({'number':number,'name':name,'position':position,'age':age,'nation':nation,'team':team,'value':value})
+    df.to_csv("transfermarket1~25.csv",index=False)
     #df=pd.DataFrame(player_list,columns=['number','name','position','age','nation','team','value'])
     return player_list
 if __name__=="__main__":
