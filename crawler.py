@@ -33,7 +33,8 @@ def crawler():
         player_list.append(player)
     #df=pd.DataFrame(player_list,columns=['number','name','position','age','nation','team','value'])
     return player_list
-if __name__=='__main__':
+if __name__=="__main__":
     data = crawler()
+    data.to_csv("transfermarket1~25.csv",index=False)
     for item in data:
         Player_info(number = item['number'], name = item['name'], position = item['position'],age=item['age'],nation=item['nation'],team=item['team'],value=item['value']).save()
