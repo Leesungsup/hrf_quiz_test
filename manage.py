@@ -4,6 +4,7 @@ import os
 import sys
 from crawler import crawler
 from quiz.models import Player_info
+from csvwriter import csvwriter
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myapi.settings')
@@ -22,4 +23,4 @@ if __name__=='__main__':
     data = crawler()
     for item in data:
         Player_info(number = item['number'], name = item['name'], position = item['position'],age=item['age'],nation=item['nation'],team=item['team'],value=item['value']).save()
-
+    csvwriter()
