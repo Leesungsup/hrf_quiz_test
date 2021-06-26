@@ -20,7 +20,7 @@ def main():
 
 if __name__=='__main__':
     main()
-    data = crawler()
-    for item in data:
-        Player_info(number = item['number'], name = item['name'], position = item['position'],age=item['age'],nation=item['nation'],team=item['team'],value=item['value'],photo=item['photo']).save()
-    csvwriter()
+    #data = crawler()
+    #for item in data:
+        #Player_info(number = item['number'], name = item['name'], position = item['position'],age=item['age'],nation=item['nation'],team=item['team'],value=item['value'],photo=item['photo']).save()
+    #csvwriter()
