@@ -1,51 +1,51 @@
-number,name,position,age,nation,team,value
-1,Kylian Mbappé,Centre-Forward,22,France,Paris Saint-Germain,€160.00m
-2,Erling Haaland,Centre-Forward,20,Norway,Borussia Dortmund,€110.00m
-3,Harry Kane,Centre-Forward,27,England,Tottenham Hotspur,€120.00m
-4,Jadon Sancho,Right Winger,21,England,Borussia Dortmund,€100.00m
-5,Mohamed Salah,Right Winger,29,Egypt,Liverpool FC,€110.00m
-6,Romelu Lukaku,Centre-Forward,28,Belgium,Inter Milan,€90.00m
-7,Kevin De Bruyne,Attacking Midfield,29,Belgium,Manchester City,€100.00m
-8,Neymar,Left Winger,29,Brazil,Paris Saint-Germain,€110.00m
-9,Frenkie de Jong,Central Midfield,24,Netherlands,FC Barcelona,€80.00m
-10,Bruno Fernandes,Attacking Midfield,26,Portugal,Manchester United,€90.00m
-11,Joshua Kimmich,Defensive Midfield,26,Germany,Bayern Munich,€90.00m
-12,Raheem Sterling,Left Winger,26,England,Manchester City,€100.00m
-13,Marcus Rashford,Left Winger,23,England,Manchester United,€85.00m
-14,Sadio Mané,Left Winger,29,Senegal,Liverpool FC,€100.00m
-15,Heung-min Son,Left Winger,28,"Korea, South",Tottenham Hotspur,€85.00m
-16,João Félix,Second Striker,21,Portugal,Atlético de Madrid,€80.00m
-17,Phil Foden,Left Winger,21,England,Manchester City,€70.00m
-18,Lautaro Martínez,Centre-Forward,23,Argentina,Inter Milan,€70.00m
-19,Marcos Llorente,Attacking Midfield,26,Spain,Atlético de Madrid,€70.00m
-20,Lionel Messi,Right Winger,33,Argentina,FC Barcelona,€80.00m
-21,Mason Mount,Attacking Midfield,22,England,Chelsea FC,€60.00m
-22,Matthijs de Ligt,Centre-Back,21,Netherlands,Juventus FC,€75.00m
-23,Trent Alexander-Arnold,Right-Back,22,England,Liverpool FC,€100.00m
-24,Rúben Dias,Centre-Back,24,Portugal,Manchester City,€70.00m
-25,Marquinhos,Centre-Back,27,Brazil,Paris Saint-Germain,€70.00m
-26,Pedri,Attacking Midfield,18,Spain,FC Barcelona,€70.00m
-27,Alphonso Davies,Left-Back,20,Canada,Bayern Munich,€75.00m
-28,Rodri,Defensive Midfield,24,Spain,Manchester City,€70.00m
-29,Mikel Oyarzabal,Left Winger,24,Spain,Real Sociedad,€70.00m
-30,Kai Havertz,Attacking Midfield,22,Germany,Chelsea FC,€70.00m
-31,Sergej Milinković-Savić,Central Midfield,26,Serbia,SS Lazio,€70.00m
-32,Bernardo Silva,Attacking Midfield,26,Portugal,Manchester City,€70.00m
-33,Raphaël Varane,Centre-Back,28,France,Real Madrid,€70.00m
-34,Serge Gnabry,Right Winger,25,Germany,Bayern Munich,€70.00m
-35,Leon Goretzka,Central Midfield,26,Germany,Bayern Munich,€70.00m
-36,Jan Oblak,Goalkeeper,28,Slovenia,Atlético de Madrid,€90.00m
-37,Casemiro,Defensive Midfield,29,Brazil,Real Madrid,€70.00m
-38,Bukayo Saka,Left Midfield,19,England,Arsenal FC,€60.00m
-39,Fede Valverde,Central Midfield,22,Uruguay,Real Madrid,€70.00m
-40,Declan Rice,Defensive Midfield,22,England,West Ham United,€60.00m
-41,Nicolò Barella,Central Midfield,24,Italy,Inter Milan,€60.00m
-42,Kingsley Coman,Left Winger,25,France,Bayern Munich,€65.00m
-43,Andrew Robertson,Left-Back,27,Scotland,Liverpool FC,€70.00m
-44,Jack Grealish,Left Winger,25,England,Aston Villa,€60.00m
-45,Timo Werner,Centre-Forward,25,Germany,Chelsea FC,€65.00m
-46,Ansu Fati,Left Winger,18,Spain,FC Barcelona,€80.00m
-47,Jules Koundé,Centre-Back,22,France,Sevilla FC,€60.00m
-48,Achraf Hakimi,Right Midfield,22,Morocco,Inter Milan,€50.00m
-49,Gabriel Jesus,Centre-Forward,24,Brazil,Manchester City,€60.00m
-50,Dayot Upamecano,Centre-Back,22,France,RB Leipzig,€60.00m
+number,name,position,age,nation,team,value,photo
+1,Kylian Mbappé,Centre-Forward,22,France,Paris Saint-Germain,€160.00m,https://img.a.transfermarkt.technology/portrait/small/342229-1602849394.jpg?lm=1
+2,Erling Haaland,Centre-Forward,20,Norway,Borussia Dortmund,€110.00m,https://img.a.transfermarkt.technology/portrait/small/418560-1607454139.jpg?lm=1
+3,Harry Kane,Centre-Forward,27,England,Tottenham Hotspur,€120.00m,https://img.a.transfermarkt.technology/portrait/small/132098-1623778520.jpg?lm=1
+4,Jadon Sancho,Right Winger,21,England,Borussia Dortmund,€100.00m,https://img.a.transfermarkt.technology/portrait/small/401173-1623778009.jpg?lm=1
+5,Mohamed Salah,Right Winger,29,Egypt,Liverpool FC,€110.00m,https://img.a.transfermarkt.technology/portrait/small/148455-1546611604.jpg?lm=1
+6,Romelu Lukaku,Centre-Forward,28,Belgium,Inter Milan,€90.00m,https://img.a.transfermarkt.technology/portrait/small/96341-1596033546.jpg?lm=1
+7,Kevin De Bruyne,Attacking Midfield,29,Belgium,Manchester City,€100.00m,https://img.a.transfermarkt.technology/portrait/small/88755-1515761259.jpg?lm=1
+8,Neymar,Left Winger,29,Brazil,Paris Saint-Germain,€110.00m,https://img.a.transfermarkt.technology/portrait/small/68290-1602849593.jpg?lm=1
+9,Frenkie de Jong,Central Midfield,24,Netherlands,FC Barcelona,€80.00m,https://img.a.transfermarkt.technology/portrait/small/326330-1599987876.jpg?lm=1
+10,Bruno Fernandes,Attacking Midfield,26,Portugal,Manchester United,€90.00m,https://img.a.transfermarkt.technology/portrait/small/240306-1580389882.jpg?lm=1
+11,Joshua Kimmich,Defensive Midfield,26,Germany,Bayern Munich,€90.00m,https://img.a.transfermarkt.technology/portrait/small/161056-1570373037.jpg?lm=1
+12,Raheem Sterling,Left Winger,26,England,Manchester City,€100.00m,https://img.a.transfermarkt.technology/portrait/small/134425-1577051521.jpg?lm=1
+13,Marcus Rashford,Left Winger,23,England,Manchester United,€85.00m,https://img.a.transfermarkt.technology/portrait/small/258923-1565603308.png?lm=1
+14,Sadio Mané,Left Winger,29,Senegal,Liverpool FC,€100.00m,https://img.a.transfermarkt.technology/portrait/small/200512-1559901727.jpg?lm=1
+15,Heung-min Son,Left Winger,28,"Korea, South",Tottenham Hotspur,€85.00m,https://img.a.transfermarkt.technology/portrait/small/91845-1599987413.jpg?lm=1
+16,João Félix,Second Striker,21,Portugal,Atlético de Madrid,€80.00m,https://img.a.transfermarkt.technology/portrait/small/462250-1574866535.jpg?lm=1
+17,Phil Foden,Left Winger,21,England,Manchester City,€70.00m,https://img.a.transfermarkt.technology/portrait/small/406635-1594986905.jpg?lm=1
+18,Lautaro Martínez,Centre-Forward,23,Argentina,Inter Milan,€70.00m,https://img.a.transfermarkt.technology/portrait/small/406625-1535015019.jpg?lm=1
+19,Marcos Llorente,Attacking Midfield,26,Spain,Atlético de Madrid,€70.00m,https://img.a.transfermarkt.technology/portrait/small/282411-1603712126.jpg?lm=1
+20,Lionel Messi,Right Winger,34,Argentina,FC Barcelona,€80.00m,https://img.a.transfermarkt.technology/portrait/small/28003-1604164452.png?lm=1
+21,Mason Mount,Attacking Midfield,22,England,Chelsea FC,€60.00m,https://img.a.transfermarkt.technology/portrait/small/346483-1563203695.jpg?lm=1
+22,Matthijs de Ligt,Centre-Back,21,Netherlands,Juventus FC,€75.00m,https://img.a.transfermarkt.technology/portrait/small/326031-1568111537.jpg?lm=1
+23,Trent Alexander-Arnold,Right-Back,22,England,Liverpool FC,€100.00m,https://img.a.transfermarkt.technology/portrait/small/314353-1559826986.jpg?lm=1
+24,Rúben Dias,Centre-Back,24,Portugal,Manchester City,€70.00m,https://img.a.transfermarkt.technology/portrait/small/258004-1572340728.jpg?lm=1
+25,Marquinhos,Centre-Back,27,Brazil,Paris Saint-Germain,€70.00m,https://img.a.transfermarkt.technology/portrait/small/181767-1602508054.jpg?lm=1
+26,Pedri,Attacking Midfield,18,Spain,FC Barcelona,€70.00m,https://img.a.transfermarkt.technology/portrait/small/683840-1620304992.jpg?lm=1
+27,Alphonso Davies,Left-Back,20,Canada,Bayern Munich,€75.00m,https://img.a.transfermarkt.technology/portrait/small/424204-1570372661.jpg?lm=1
+28,Rodri,Defensive Midfield,25,Spain,Manchester City,€70.00m,https://img.a.transfermarkt.technology/portrait/small/357565-1556022958.jpg?lm=1
+29,Mikel Oyarzabal,Left Winger,24,Spain,Real Sociedad,€70.00m,https://img.a.transfermarkt.technology/portrait/small/351478-1599987229.jpg?lm=1
+30,Kai Havertz,Attacking Midfield,22,Germany,Chelsea FC,€70.00m,https://img.a.transfermarkt.technology/portrait/small/309400-1620646226.jpg?lm=1
+31,Sergej Milinković-Savić,Central Midfield,26,Serbia,SS Lazio,€70.00m,https://img.a.transfermarkt.technology/portrait/small/266302-1594714732.jpg?lm=1
+32,Bernardo Silva,Attacking Midfield,26,Portugal,Manchester City,€70.00m,https://img.a.transfermarkt.technology/portrait/small/241641-1520189140.jpg?lm=1
+33,Raphaël Varane,Centre-Back,28,France,Real Madrid,€70.00m,https://img.a.transfermarkt.technology/portrait/small/164770-1598301905.jpg?lm=1
+34,Serge Gnabry,Right Winger,25,Germany,Bayern Munich,€70.00m,https://img.a.transfermarkt.technology/portrait/small/159471-1570373116.jpg?lm=1
+35,Leon Goretzka,Central Midfield,26,Germany,Bayern Munich,€70.00m,https://img.a.transfermarkt.technology/portrait/small/153084-1540568530.jpg?lm=1
+36,Jan Oblak,Goalkeeper,28,Slovenia,Atlético de Madrid,€90.00m,https://img.a.transfermarkt.technology/portrait/small/121483-1599986864.jpg?lm=1
+37,Casemiro,Defensive Midfield,29,Brazil,Real Madrid,€70.00m,https://img.a.transfermarkt.technology/portrait/small/16306-1622131439.jpg?lm=1
+38,Bukayo Saka,Left Midfield,19,England,Arsenal FC,€60.00m,https://img.a.transfermarkt.technology/portrait/small/433177-1582630395.jpg?lm=1
+39,Fede Valverde,Central Midfield,22,Uruguay,Real Madrid,€70.00m,https://img.a.transfermarkt.technology/portrait/small/369081-1581501132.jpg?lm=1
+40,Declan Rice,Defensive Midfield,22,England,West Ham United,€60.00m,https://img.a.transfermarkt.technology/portrait/small/357662-1512663772.jpg?lm=1
+41,Nicolò Barella,Central Midfield,24,Italy,Inter Milan,€60.00m,https://img.a.transfermarkt.technology/portrait/small/255942-1582023619.jpg?lm=1
+42,Kingsley Coman,Left Winger,25,France,Bayern Munich,€65.00m,https://img.a.transfermarkt.technology/portrait/small/243714-1540568692.jpg?lm=1
+43,Andrew Robertson,Left-Back,27,Scotland,Liverpool FC,€70.00m,https://img.a.transfermarkt.technology/portrait/small/234803-1559827085.jpg?lm=1
+44,Jack Grealish,Left Winger,25,England,Aston Villa,€60.00m,https://img.a.transfermarkt.technology/portrait/small/203460-1581417066.jpg?lm=1
+45,Timo Werner,Centre-Forward,25,Germany,Chelsea FC,€65.00m,https://img.a.transfermarkt.technology/portrait/small/170527-1471002206.jpg?lm=1
+46,Ansu Fati,Left Winger,18,Spain,FC Barcelona,€80.00m,https://img.a.transfermarkt.technology/portrait/small/466810-1560761660.jpg?lm=1
+47,Jules Koundé,Centre-Back,22,France,Sevilla FC,€60.00m,https://img.a.transfermarkt.technology/portrait/small/411975-1525683142.jpg?lm=1
+48,Achraf Hakimi,Right Midfield,22,Morocco,Inter Milan,€50.00m,https://img.a.transfermarkt.technology/portrait/small/398073-1534235948.jpg?lm=1
+49,Gabriel Jesus,Centre-Forward,24,Brazil,Manchester City,€60.00m,https://img.a.transfermarkt.technology/portrait/small/363205-1533284263.jpg?lm=1
+50,Dayot Upamecano,Centre-Back,22,France,RB Leipzig,€60.00m,https://img.a.transfermarkt.technology/portrait/small/344695-1532352602.jpg?lm=1

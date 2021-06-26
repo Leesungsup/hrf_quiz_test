@@ -4,7 +4,8 @@ class QuizSerializer(serializers.ModelSerializer):
     class Meta:
         model=Quiz
         fields=('title','body','answer')
-#class PlayerSerializer(serializers.ModelSerializer):
-   #class Meta:
-        #model=Player_info
-        #fields=('number','name','position','age','nation','team','value')
+class PlayerSerializer(serializers.ModelSerializer):
+    photo = serializers.ImageField(use_url=True)
+    class Meta:
+        model=Player_info
+        fields=('number','name','position','age','nation','team','value','photo')
