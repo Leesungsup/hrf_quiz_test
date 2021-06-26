@@ -33,8 +33,8 @@ def crawler():
             nation1=information[6].img['alt']
             team1=information[7].img['alt']
             value1=information[8].span['title']
-            #photo1=information[2].img['src']
-            player={'number':number1,'name':name1,'position':position1,'age':age1,'nation':nation1,'team':team1,'value':value1}
+            photo1=information[2].img['src']
+            player={'number':number1,'name':name1,'position':position1,'age':age1,'nation':nation1,'team':team1,'value':value1,'photo':photo1}
             number.append(int(information[0].get_text()))
             name.append(information[3].get_text())
             position.append(information[4].get_text())
@@ -42,9 +42,9 @@ def crawler():
             nation.append(information[6].img['alt'])
             team.append(information[7].img['alt'])
             value.append(information[8].span['title'])
-            #photo.append(information[2].img['src'])
+            photo.append(information[2].img['src'])
             player_list.append(player)
-        df=pd.DataFrame({'number':number,'name':name,'position':position,'age':age,'nation':nation,'team':team,'value':value})
+        df=pd.DataFrame({'number':number,'name':name,'position':position,'age':age,'nation':nation,'team':team,'value':value,'photo':photo})
     df.to_csv("transfermarket1~25.csv",index=False)
     #df=pd.DataFrame(player_list,columns=['number','name','position','age','nation','team','value'])
     return player_list

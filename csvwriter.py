@@ -16,8 +16,8 @@ def csvwriter():
     with open(CSV_PATH, newline='',encoding='UTF-8') as csvfile:	# 4. newline =''
         data_reader = csv.DictReader(csvfile)
         for row in data_reader:
-            Player_name.objects.create(		# 5. class명.objects.create
-                name = row['name']
+            #Player_name.objects.create(		# 5. class명.objects.create
+                #name = row['name']
               #6
-            )
-            #Player_name(name = row['name']).save()
+            #)
+            Player_name(name = row['name']).save()
