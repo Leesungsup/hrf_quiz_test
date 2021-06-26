@@ -8,10 +8,10 @@ class Quiz(models.Model):
 
 class Player_info(models.Model):
     number = models.IntegerField(primary_key = True)
-    name = models.CharField(max_length=20)
-    position = models.CharField(max_length=20)
+    name = models.CharField(max_length=30)
+    position = models.CharField(max_length=30)
     age=models.IntegerField()
-    nation=models.CharField(max_length=20)
+    nation=models.CharField(max_length=30)
     team=models.CharField(max_length=30)
     value=models.CharField(max_length=30)
     photo=models.ImageField(blank=True,null=True,upload_to='photos/',default='')
