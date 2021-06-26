@@ -37,5 +37,5 @@ def player(request,pk):
 def playerQuiz(request,pk):
     totalPlayers=Player_info.objects.all()
     randomPlayerQuizs=random.sample(list(totalPlayers),pk)
-    serializer1=PlayerSerializer(randomPlayerQuizs,many=True)#many=True 다수의 데이터 직렬화
-    return Response(serializer1.data)
+    serializer2=PlayerSerializer(randomPlayerQuizs,many=True)#many=True 다수의 데이터 직렬화
+    return Response(serializer2.data)
