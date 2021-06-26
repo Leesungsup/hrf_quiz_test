@@ -8,13 +8,13 @@ class Quiz(models.Model):
 
 class Player_info(models.Model):
     number = models.IntegerField(primary_key = True)
-    name = models.CharField(max_length=30)
-    position = models.CharField(max_length=30)
+    name = models.CharField(max_length=50)
+    position = models.CharField(max_length=50)
     age=models.IntegerField()
-    nation=models.CharField(max_length=30)
-    team=models.CharField(max_length=30)
-    value=models.CharField(max_length=30)
+    nation=models.CharField(max_length=50)
+    team=models.CharField(max_length=50)
+    value=models.CharField(max_length=50)
     photo=models.ImageField(blank=True,null=True,upload_to='photos/',default='')
 
 class Player_name(models.Model):
-    name=models.CharField(max_length=20)
+    name=models.CharField(max_length=50)
