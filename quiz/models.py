@@ -14,7 +14,7 @@ class Player_info(models.Model):
     nation=models.CharField(max_length=50)
     team=models.CharField(max_length=50)
     value=models.CharField(max_length=50)
-    photo=models.URLField()
+    photo=models.URLField(null=True, blank=True)
 
 class Player_name(models.Model):
     name=models.CharField(max_length=50)
