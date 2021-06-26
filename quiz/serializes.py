@@ -5,7 +5,7 @@ class QuizSerializer(serializers.ModelSerializer):
         model=Quiz
         fields=('title','body','answer')
 class PlayerSerializer(serializers.ModelSerializer):
-    photo = serializers.ImageField(use_url=True)
+    #photo = serializers.ImageField(use_url=True)
     class Meta:
         model=Player_info
-        fields=('number','name','position','age','nation','team','value','photo')
+        fields=('number','name','position','age','nation','team','value')
